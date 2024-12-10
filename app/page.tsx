@@ -4,6 +4,8 @@ import { Header } from "@/components/header"
 import { Navigation } from "@/components/navigation"
 import { ProductGallery } from "@/components/product-gallery"
 import ProductDetails from "@/components/product-details"
+import LandingPage from "@/components/description"
+import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Heart, Minus, Plus } from 'lucide-react'
 import { useState } from 'react'
@@ -12,8 +14,10 @@ export default function Home() {
   const [quantity, setQuantity] = useState(1)
   return (
     <div className="min-h-screen">
+      <div className="">
       <Header />
       <Navigation />
+      </div>
       
       <main className="container mx-auto px-4 py-8">
         <div className="text-sm breadcrumbs mb-8">
@@ -91,6 +95,8 @@ export default function Home() {
         </div>
       </main>
       <ProductDetails />
+      <LandingPage />
+      <Footer />
     </div>
   )
 }
