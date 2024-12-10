@@ -8,7 +8,7 @@ export default function LandingPage() {
       {/* Hero Section */}
       <section className="text-center py-16 px-4">
         <h1 className="text-4xl md:text-5xl font-medium mb-4">
-          On s'occupe de <span className="text-[#7DD0D5]">tout</span>
+          On soccupe de <span className="text-[#7DD0D5]">tout</span>
         </h1>
         <p className="text-gray-500 max-w-2xl mx-auto">
           Office ipsum you must be muted. It meeting commitment busy pain.
@@ -46,8 +46,8 @@ export default function LandingPage() {
             <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
               <Timer className="w-12 h-12 text-[#7DD0D5]" />
             </div>
-            <h3 className="font-medium mb-2">Transport & Enlèvement</h3>
-            <p className="text-gray-500 text-sm">On s'occupe de tout</p>
+            <h3 className="font-medium mb-2">Transport & Enlvement</h3>
+            <p className="text-gray-500 text-sm">On soccupe de tout</p>
           </div>
         </div>
       </section>
@@ -64,10 +64,10 @@ export default function LandingPage() {
           </div>
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-medium">
-              S'inscrire & économiser <span className="text-[#7DD0D5]">10%</span>
+              Sinscrire & économiser <span className="text-[#7DD0D5]">10%</span>
             </h2>
             <p className="text-gray-600">
-              Office ipsum you must be muted. Synergize helicopter prioritize anyway job due harvest most opportunity didn't. Yet busy any meeting shark light marginalised 4-blocker message. Productize corporate nail caught synergy highlights lunch. Company another pushback items dear or any.
+              Office ipsum you must be muted. Synergize helicopter prioritize anyway job due harvest most opportunity didnt. Yet busy any meeting shark light marginalised 4-blocker message. Productize corporate nail caught synergy highlights lunch. Company another pushback items dear or any.
             </p>
             <div className="flex gap-4">
               <Input
@@ -76,7 +76,7 @@ export default function LandingPage() {
                 className="flex-1"
               />
               <Button className="bg-[#7DD0D5] hover:bg-[#6BC0C5] text-white px-8">
-                S'INSCRIRE →
+                S INSCRIRE →
               </Button>
             </div>
           </div>
