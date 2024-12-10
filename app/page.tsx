@@ -3,6 +3,7 @@
 import { Header } from "@/components/header"
 import { Navigation } from "@/components/navigation"
 import { ProductGallery } from "@/components/product-gallery"
+import ProductDetails from "@/components/product-details"
 import { Button } from "@/components/ui/button"
 import { Heart, Minus, Plus } from 'lucide-react'
 import { useState } from 'react'
@@ -89,6 +90,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <ProductDetails />
     </div>
   )
 }
